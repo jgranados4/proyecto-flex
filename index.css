@@ -111,3 +111,41 @@
   font-size: 16px;
   color: gray;
 }
+/**Barra lateral*/
+#aside{
+  flex-basis: 15%;
+  margin-right: 30px;
+  padding: 15px;
+  display: flex;
+  flex-flow: column wrap;
+}
+#aside h2{
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  color: #444;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom:1px solid rgba(255,255, 226,0.8) ;
+  text-align: center;
+}
+#aside ul{
+  list-style: none;
+}
+#aside ul li {
+  padding-bottom: 20px;
+}
+#aside a{
+  display: block;
+  padding: 20px;
+  color: #444;
+  background: #ccc;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 300ms;
+}
+#aside a:hover{
+  background: #444;
+  color: white;
+}
+/***/
